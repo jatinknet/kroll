@@ -1,0 +1,466 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+
+body {
+  padding-top: 30px;
+}
+.col-lg-8.right-side-width {
+    width: 70%;
+    float: left;
+}
+.col-lg-4.right-side-width {
+    width: 30%;
+    flex: 0;
+    float: right;
+    background-color: #f1f1f1;
+    padding-bottom: 16px !important;
+	border-top: 15px solid #0965ab;
+	margin-top: 10px !important;
+}
+.alert.alert-info {
+  background: #0965ab none repeat scroll 0 0 !important;
+}
+.header-title h1 {
+  color: #ffffff;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+  font-size: 30px;
+  font-weight: lighter !important;
+  padding-top: 18px;
+}
+.qid {
+  border-radius: 20px;
+  padding:7px 12px;
+}
+span.qid {
+    background: #2c3e61 none repeat scroll 0 0;
+    border: 3px solid #000000;
+    color: #fff;
+    font-family: arial !important;
+}
+.Step-bar ul {
+  list-style: outside none none;
+  margin: 0;
+  padding-top: 4px;
+}
+.Step-bar ul li {
+    display: inline-block;
+    margin: 0 3%;
+    text-align: center;
+    vertical-align: top;
+    width: 18%;
+    position: relative;
+    z-index: 999;
+}
+.Step-bar ul li a {
+  text-decoration: none;
+}
+
+    .Step-bar ul li a:hover .qid {
+        background: #fff none repeat scroll 0 0 !important;
+        color: #000;
+        border: 2px solid #000;
+    }
+.Step-bar ul li p {
+  color: #ffffff;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 11px;
+}
+.nav.nav-tabs li a.active .qid {
+    background: #fff none repeat scroll 0 0 !important;
+    color: #000;
+}
+.questionsRow {
+  margin: 0;
+  padding: 10px 20px 10px 0;
+}
+.questions {
+  color: #505050;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif !important;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 9px 0;
+  padding: 0;
+  position: relative;
+}
+.answerList li {
+  padding: 3px 0;
+}
+.answerList label {
+  cursor: pointer;
+  display: block;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding: 6px 6px 0;
+}
+.answerList {
+  list-style: outside none none;
+  margin-bottom: 15px;
+  padding: 0;
+}
+.button, .greyButton {
+  background-color: #f2f2f2;
+  border: 3px solid #cccccc;
+  border-radius: 0;
+  color: #888888;
+  display: inline-block;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 27px;
+  min-width: 130px;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+.glyphicon.glyphicon-exclamation-sign {
+  background: #0965ab none repeat scroll 0 0;
+  border: 1px solid #0965ab;
+  border-radius: 344px;
+  color: #fff;
+  cursor: none;
+  font-size: 14px;
+  height: 20px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 0 !important;
+  text-align: center;
+  width: 20px !important;
+}
+.middle-section p {
+  color: #555;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.button:hover, .greyButton:hover {
+  background: #037cd5 none repeat scroll 0 0;
+  border-color: #037cd5;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: none;
+}
+.questions-info {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.review-section p {
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+.review-section.rec p {
+  /*color: #e15206;*/
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  margin-bottom: 4px;
+  margin-top: 14px;
+ 
+}
+.progress-bar.bg-warning {
+  background: #e15206 none repeat scroll 0 0 !important;
+}
+.review-section.black p {
+  color: #000000 !important;
+  font-size: 14px !important;
+  padding-top: 12px !important;
+}
+
+.answerList label input {
+  float: left;
+  margin-right: 13px;
+  margin-top: 5px;
+}
+.radio {
+    padding-left: 20px; }
+
+	input[type="radio"] {
+    -ms-transform: scale(1.3)!important; /* IE 9 */
+    -webkit-transform: scale(1.3)!important; /* Chrome, Safari, Opera */
+    transform: scale(1.3)!important;
+}
+.answerList label p {
+  color: #606060;
+  float: left;
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  margin: 0;
+  width: 90%;
+}
+input[type="radio"] {
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.5px #000000;
+  height: 10px;
+  outline: medium none;
+  width: 10px;
+}
+
+    input[type='radio']:before {
+        content: '';
+        display: block;
+        width: 60%;
+        height: 60%;
+        margin: 20% auto;
+        border-radius: 50%;
+    }
+
+    input[type='radio']:checked:before {
+        /*background: green !important;*/
+    }
+	.nav-tabs {
+  border-bottom: medium none;
+}
+.questionsBox {
+  overflow: hidden;
+}
+.answerList .form-group label {
+  font-family: arial !important;
+  font-size: 14px;
+  margin-bottom: 9px;
+  padding-top: 0;
+
+}
+.answerList .form-group select {
+  font-size: 13px !important;
+}
+.form-group {
+  margin-bottom: 3px;
+}
+h2.glyphicon.glyphicon-exclamation-sign:hover {
+  /*background: #ffeb3b none repeat scroll 0 0 !important;*/
+  /*color: #000000 !important;*/
+}
+.questionsRow {
+  overflow: hidden;
+}
+/*.col-lg-6.mb-6.middle-section {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}*/
+.col-lg-5.mb-5.middle-section {
+   
+    border-right: 1px solid #cccccc;
+}
+.col-lg-1.mb-1.middle-section {
+    border-left: 1px solid #cccccc;
+    padding: 10px;
+}
+
+.mb-1 {
+    margin-bottom: 1rem !important;
+    
+}
+
+.mb-5 {
+    margin-bottom: 1rem !important;
+
+}
+
+.text {
+  font-family: arial;
+  margin-top: 16px;
+  text-align: justify;
+}
+.text a {
+  color: #e15206;
+  text-decoration: underline;
+}
+.text a span {
+  color: #3984C6;
+  text-decoration: underline;
+}
+.col-lg-12.mb-12.review-section {
+  padding: 0;
+}
+.col-lg-12.mb-12 {
+  padding: 0;
+}
+.answerList li {
+  overflow: hidden;
+  padding: 3px 0;
+}
+.answerList li {
+  overflow: hidden;
+}
+.col-lg-1.mb-1.middle-section {
+  border-left: 1px solid #ccc !important;
+}
+.col-lg-5.mb-5.middle-section {
+  border-right: 1px solid #ccc !important;
+}
+
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ input[type="radio"] {
+    border-radius: 49%!important;
+    box-shadow: 0 0 0 0px #000000!important;
+    height: 13px!important;
+    outline: medium none;
+    width: 18px !important;
+}
+}
+
+
+/* iPhone 6 in portrait & landscape */
+@media (min-width: 320px) and (max-width: 767px) {
+.col-lg-8.right-side-width {
+  float: left;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.col-lg-4.right-side-width {
+  flex: 0 1 0;
+  float: right;
+  margin-bottom: 20px;
+  width: 100% !important;
+}
+.answerList label p {
+  width: 88%;
+}
+.Step-bar ul li {
+  overflow: hidden;
+  padding: 4px;
+  text-align: center;
+  vertical-align: top;
+  width: 100% !important;
+}	
+ .header-title h1 {
+  text-align: center;
+}
+.answerList li {
+  overflow: hidden;
+  padding: 3px 0;
+}
+.answerList label input {
+  float: left;
+  margin-right: 13px;
+  margin-top: 5px;
+}
+.middle-section {
+  background: #f6f6f6 none repeat scroll 0 0;
+  padding: 23px 18px;
+} 
+.nav.nav-tabs::before { 
+display: none !important; 
+}
+}
+
+/* iPhone 6 in portrait & landscape */
+@media (min-width: 320px) and (max-width: 479px) {
+.Step-bar ul li {
+  text-align: center;
+  vertical-align: top;
+  width: 100% !important;
+}
+.Step-bar ul li p {
+  font-size: 14px;
+}
+.button, .greyButton {
+  background-color: #f2f2f2;
+  border: 3px solid #cccccc;
+  border-radius: 0;
+  color: #888888;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 27px;
+  min-width: 105px;
+  padding: 5px 4px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffffff;
+ 
+  vertical-align: middle;
+}
+.tab-pane .col-lg-10.mb-10 {
+  padding: 0 !important;
+}
+.nav.nav-tabs::before { 
+display: none !important; 
+}
+}
+
+
+/* iPhone 6 in portrait & landscape */
+@media (min-width: 768px) and (max-width: 1023px)
+ .header-title h1 {
+  text-align: center;
+}
+.answerList li {
+  overflow: hidden;
+  padding: 3px 0;
+}
+.answerList label input {
+  float: left;
+  margin-right: 13px;
+  margin-top: 5px;
+}
+.middle-section {
+  background: #f6f6f6 none repeat scroll 0 0;
+  padding: 23px 18px;
+} 
+}
+
+ 
+/* saf3+, chrome1+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+input[type="radio"] {
+    /* border-radius: 50%; */
+    box-shadow: none!important;
+    /*height:  15px !important;*/
+    outline: medium none !important;
+    width: 15px !important;
+}
+}
+
+
+.row.question {
+    border-bottom: 1px solid #d5d5d5 !important;
+    padding: 10px 0px;
+}
+
+.row.lastques {
+  
+    padding: 10px 0px;
+}
+
+.progress {
+    background-color: #fff !important;
+
+}
+
+.nav.nav-tabs::before {
+    content: "";
+    display: block;
+    border-top: solid 3px #073a61;
+    position: relative;
+    width: 413px;
+    top: 15px;
+    left: 42px;
+}
+.col-lg-1.mb-1.middle-section {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+ 
+}
+.col-lg-5.mb-5.middle-section {
+  background: rgba(0, 0, 0, 0) none repeat scroll center bottom !important;
+  
+  padding: 0;
+}
+
+
+
